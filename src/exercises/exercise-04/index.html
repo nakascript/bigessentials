@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 04 - Big O Notation</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Navigation -->
+        <nav class="mb-8">
+            <a href="../../index.html" class="text-primary hover:text-blue-600 font-semibold">
+                ← Back to Menu
+            </a>
+        </nav>
+
+        <!-- Exercise Header -->
+        <header class="text-center mb-12">
+            <span class="text-6xl mb-4 block">🔍</span>
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">
+                Exercise 04: Big O Notation & Algorithm Complexity
+            </h1>
+            <p class="text-lg text-gray-600">
+                Understand time complexity and algorithm performance analysis
+            </p>
+        </header>
+
+        <!-- Exercise Content -->
+        <div class="max-w-6xl mx-auto">
+            <!-- Documentation Link -->
+            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg shadow-md p-6 mb-6 border-l-4 border-primary">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">📖 Complete Reference Guide</h3>
+                        <p class="text-gray-600">Want to dive deeper? Check out the comprehensive Big O Notation documentation!</p>
+                    </div>
+                    <a href="./docs/BIG_O_NOTATION.md" target="_blank" class="btn-primary whitespace-nowrap">
+                        View Docs →
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8 mb-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 Big O Notation Reference</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div class="bg-green-50 p-4 rounded border border-green-200">
+                        <h3 class="font-bold text-green-800 mb-2">✅ Excellent</h3>
+                        <p><strong>O(1)</strong> - Constant: Direct access</p>
+                        <p><strong>O(log n)</strong> - Logarithmic: Binary search</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded border border-blue-200">
+                        <h3 class="font-bold text-blue-800 mb-2">👍 Good</h3>
+                        <p><strong>O(n)</strong> - Linear: Single loop</p>
+                        <p><strong>O(n log n)</strong> - Log-linear: Efficient sorting</p>
+                    </div>
+                    <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+                        <h3 class="font-bold text-yellow-800 mb-2">⚠️ Fair</h3>
+                        <p><strong>O(n²)</strong> - Quadratic: Nested loops</p>
+                    </div>
+                    <div class="bg-red-50 p-4 rounded border border-red-200">
+                        <h3 class="font-bold text-red-800 mb-2">❌ Poor</h3>
+                        <p><strong>O(2^n)</strong> - Exponential: Recursive fibonacci</p>
+                        <p><strong>O(n!)</strong> - Factorial: Permutations</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Output Area -->
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">🖥️ Performance Analysis</h2>
+                <div id="output" class="bg-gray-50 p-4 rounded border border-gray-200 font-mono text-sm whitespace-pre-wrap">
+                    <p class="text-gray-500">Performance results will appear here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
